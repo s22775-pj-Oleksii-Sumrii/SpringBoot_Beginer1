@@ -7,7 +7,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/cars")
 public class CarController {
-    private final CarService carService;
+    public final CarService carService;
 
     public CarController(CarService carService) {
         this.carService = carService;
